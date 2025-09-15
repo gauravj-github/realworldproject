@@ -5,7 +5,7 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("main");
 
   return (
-    <div className="absolute top-20 left-0 w-full h-screen bg-white shadow-md md:hidden p-4 overflow-y-auto">
+    <div className="absolute top-20 left-0 w-full h-screen bg-white shadow-md md:hidden p-4 overflow-y-auto z-50">
       {activeMenu === "main" && (
         <>
           <ul className="flex flex-col space-y-4 text-lg font-medium text-gray-600">

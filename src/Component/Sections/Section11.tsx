@@ -1,5 +1,6 @@
 import img1 from "../../assets/nataliya-melnychuk-0z51VwNLfcs-unsplash.jpg";
-import { Formik, Form, Field, ErrorMessage, FormikErrors } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import type { FormikErrors } from "formik";
 
 type FormValues = {
   name: string;

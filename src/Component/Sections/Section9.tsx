@@ -5,8 +5,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import img1 from '../../assets/pt/17789b67a5d3f17e117a9ae9ee06a5fe66a7f83c.png'
 import img2 from '../../assets/pt/5f02cbb6cf56bfde210da708d9dc6d1f4c49e5d0.png'
 import img3 from '../../assets/pt/f240754308a9fa6fd6d508544a86ac1611c13546.png'
-import img4 from '../../assets/pt/f240754308a9fa6fd6d508544a86ac1611c13546.png'
-import img5 from '../../assets/pt/f240754308a9fa6fd6d508544a86ac1611c13546.png'
 
 const Section9 = () => {
   const images = [img1, img2, img3,img1,img2,img3];

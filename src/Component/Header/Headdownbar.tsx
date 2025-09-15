@@ -1,4 +1,3 @@
-import React from 'react'
 import img from '../../assets/c151be04adb3822c83327ba62a4051348199c6ce.png'
 
 const Headdownbar = () => {

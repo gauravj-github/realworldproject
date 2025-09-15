@@ -26,7 +26,7 @@ const Section4 = () => {
       </div>
 
       {/* Slider */}
-      <div className="w-full max-w-[1200px] overflow-hidden">
+      <div className="w-full max-w-[1200px] overflow-hidden cursor-pointer">
         <Swiper
           slidesPerView={1}               // mobile default
           spaceBetween={20}

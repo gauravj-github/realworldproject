@@ -10,7 +10,7 @@ const Section9 = () => {
   const images = [img1, img2, img3,img1,img2,img3];
   return (      
 
-     <div className="w-full h-[400px] flex flex-col items-center justify-center bg-gray-200  px-6 md:px-20">
+     <div className="w-full h-[500px] flex flex-col items-center justify-center bg-gray-200  px-6 md:px-20">
   {/* Heading Section */}
   <div className="w-full mb-10 p-6 rounded-lg ">
     <span className="bg-blue-800/20 text-blue-400 px-3 py-1 rounded-md text-sm font-medium">
@@ -27,7 +27,7 @@ const Section9 = () => {
   pagination={{ clickable: true }}
   modules={[Pagination, Autoplay]}   // 👈 yaha Autoplay bhi include karo
   autoplay={{ delay: 2500, disableOnInteraction: false }}
-  className="w-full"
+  className="w-full cursor-pointer"
   breakpoints={{
     320: { slidesPerView: 1 },
     640: { slidesPerView: 2 },

@@ -1,6 +1,6 @@
 const Section5 = () => {
   return (
-    <div className="w-full py-20 px-6 md:px-20 relative bg-white">
+    <div className="w-full py-20 px-6 md:px-20 relative bg-neutral-50">
       {/* Background text */}
       <div className="flex justify-center items-center text-center relative z-0">
         <p className="text-center text-3xl md:text-5xl font-semibold text-lime-500 opacity-60 w-[50%]">

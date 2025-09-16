@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import google from"../../assets/wired-lineal-2685-logo-square-google.gif"
 
 const Section4 = () => {
   return (
@@ -16,11 +17,11 @@ const Section4 = () => {
       }}
     >
       {/* Left Blue Box */}
-      <div className="bg-blue-800 h-[250px] md:h-full w-full md:w-[25%] flex flex-col justify-center items-center gap-4 text-white rounded-lg p-4 md:p-6">
-        <h1 className="text-3xl md:text-4xl font-bold">4.9</h1>
-        <h1 className="text-3xl md:text-4xl font-bold">4.9</h1>
-        <h1 className="text-3xl md:text-4xl font-bold">4.9</h1>
-        <h1 className='w-full md:w-[100px] font-bold leading-5 md:leading-6 text-center mt-4 md:mt-6 text-sm md:text-base'>
+      <div className="bg-blue-800 h-[250px] md:h-full w-full md:w-[25%] flex flex-col justify-center items-center gap-2 text-white rounded-lg p-4 md:p-6">
+        <h3 className="text-xl md:text-xl font-bold flex  items-center gap-2"><img src={google} className="rounded-full w-[50px]"/>4.9</h3>
+        <h3 className="text-xl md:text-xl font-bold">star</h3>
+        <h1 className="text-xl md:text-xl font-bold">Based on 14,570 reviews</h1>
+        <h1 className='w-full md:w-[100px] font-bold leading-5 md:leading-6 text-center mt-4 md:mt-2 text-sm md:text-base'>
           What our patient’s are saying
         </h1>
       </div>

@@ -6,7 +6,7 @@ import Section12 from './Component/Sections/Section12';
 import Section2 from './Component/Sections/section2';
 import Section3 from './Component/Sections/Section3';
 import Section4 from './Component/Sections/Section4';
-import Section5 from './Component/Sections/Section5';
+import Section5 from "./Component/Sections/Section5"; // no curly braces
 import Section7 from './Component/Sections/section7';
 import Section9 from './Component/Sections/Section9';
 import Section11 from './Component/Sections/Section11';

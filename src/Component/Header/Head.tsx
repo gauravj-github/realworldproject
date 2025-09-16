@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div
-      className="h-20 flex justify-between items-center px-4"
+      className=" sm:h-15 md:h-20 flex justify-between items-center px-4"
       style={{ backgroundColor: "#FFF" }}
     >
       {/* Logo */}

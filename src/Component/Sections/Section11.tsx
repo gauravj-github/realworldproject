@@ -10,13 +10,15 @@ type FormValues = {
 const Section11 = () => {
   return (
     <div
-      className="w-full h-[500px] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${img1})` }}
+      className="w-full  bg-cover bg-center flex items-center justify-center py-10"
+      style={{ backgroundImage: `url(${img1})`,
+    backgroundSize: "cover",
+        backgroundPosition: "center", }}
     >
-      <div className="bg-white w-[90%] md:w-[60%] p-8 rounded-2xl shadow-lg flex flex-col md:flex-row items-center gap-8">
+      <div className="bg-white w-[90%] md:w-[60%] p-8 rounded-2xl shadow-lg flex flex-col md:flex-row items-center gap-8 ">
         {/* Left Side Form */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-xl text-gray-600 font-bold text-center mb-6 text-gray-800">
+          <h2 className="text-xl  font-bold text-center mb-6 text-gray-600">
             Just focus on your fertility journey, We got the rest covered!
           </h2>
 
@@ -98,7 +100,7 @@ const Section11 = () => {
           <img
             src={img1}
             alt="Contact Illustration"
-            className="rounded-lg shadow-md object-cover h-[400px] w-[400px]"
+            className="rounded-lg shadow-md object-cover"
           />
         </div>
       </div>
